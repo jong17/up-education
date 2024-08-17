@@ -1,6 +1,3 @@
-Thanks for downloading this template!
-
-Template Name: Scaffold
-Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Project: UP education
+Exported on: 2024-08-17 10:14
+Generated Using BootstrapMade Builder

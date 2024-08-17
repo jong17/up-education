@@ -4,164 +4,178 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Scaffold Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Index - UP education</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Scaffold
-  * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <div class="logo me-auto">
-        <h1><a href="index.html">UP Education</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">UP Education</h1>
+      </a>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#about">About Us</a></li>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="index.html" class="active">หน้าหลัก</a></li>
+          <li><a href="faculty.html">เรียนต่อคณะ</a></li>
+          <!-- <li><a href="university-page1.html" class="">มหาวิทยาลัย</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span class="">Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+      <ul>
+        <li><a href="#">Dropdown 1</a></li>
+        <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Deep Dropdown 1</a></li>
+            <li><a href="#">Deep Dropdown 2</a></li>
+            <li><a href="#">Deep Dropdown 3</a></li>
+            <li><a href="#">Deep Dropdown 4</a></li>
+            <li><a href="#">Deep Dropdown 5</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Dropdown 2</a></li>
+        <li><a href="#">Dropdown 3</a></li>
+        <li><a href="#">Dropdown 4</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact" class="">ติดต่อเรา</a></li> -->
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="header-social-links d-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <main class="main">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-          <div>
-            <h1>สถาบันติวและศึกษาต่อต่างประเทศ UP Education</h1>
-            <h2>เรียนต่อคณะแพทย์ศาสตร์ วิศวกรรมศาสตร์ บริหารธุรกิจหมาวิทยาลัย TOP ประเทศจีน</h2>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-          <img src="assets/img/hero-img-removebg.png" class="img-fluid" alt="">
-        </div>
-      </div>
-    </div>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
       <div class="container">
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="zoom-in">
-            <img src="assets/img/about-up.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
-            <div class="content pt-4 pt-lg-0">
-              <h3>เกี่ยวกับเรา</h3>
-              <p class="fst-italic">
-                ผู้เชี่ยวชาญ​ให้คำปรึกษา​ เ​รี​ยนแพทย์ที่จีน​ วิศวะ​ บริหารฯ มหาลัย Top ​ของจีน
-              </p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperd</li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate tera noden carma palorp mades tera. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate tera noden carma palorp mades tera.
-              </p>
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1>สถาบันติวและศึกษาต่อต่างประเทศ UP Education</h1>
+            <p>เรียนต่อคณะแพทยศาสตร์ วิศวกรรมศาสตร์ บริหารธุรกิจมหาวิทยาลัย TOP ประเทศจีน</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
             </div>
           </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img">
+            <img src="assets/img/hero-img-removebg.png" class="img-fluid animated" alt="">
+          </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
 
-    <!-- Values Section -->
-    <section id="values" class="values section">
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>เรียนต่อคณะแพทย์ศาสตร์ คณะวิศวกรรมศาสตร์</h2>
-        <p>เรียนต่อมหาวิทยาลัย TOP ประเทศจีน<br></p>
+        <h2>เกี่ยวกับเรา</h2>
+        <p>ผู้เชี่ยวชาญ​ให้คำปรึกษา​ เ​รี​ยนแพทย์ที่จีน​ วิศวะ​ บริหารฯ มหาลัย Top ​ของจีน</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-3">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about-up.png" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content ps-0 ps-lg-3">
+              <h3>UP Education</h3>
+              <p class="fst-italic">
+                ผู้เชี่ยวชาญ​ให้คำปรึกษา​ เ​รี​ยนแพทย์ที่จีน​ วิศวะ​ บริหารฯ มหาลัย​Top​ของจีน
+              </p>
+              <p>
+                สถาบันติวและศึกษาต่อต่างประเทศ UP Education เป็นสถาบันที่มุ่งเน้นการเตรียมความพร้อมให้นักเรียนไทยไปศึกษาต่อในมหาวิทยาลัยชั้นนำของประเทศจีน โดยเฉพาะในสาขาแพทยศาสตร์ วิศวกรรมศาสตร์ และบริหารธุรกิจ สถาบันของเราตั้งอยู่ในเมืองหาดใหญ่ ทีมงานของเรามีประสบการณ์และความเชี่ยวชาญในการให้คำปรึกษาและการแนะแนวเพื่อให้นักเรียนมีความพร้อมสูงสุดในการสอบเข้าและประสบความสำเร็จในการศึกษาต่อที่ประเทศจีน
+              </p>
+              <p>
+                UP Education มุ่งเน้นการสนับสนุนในทุกขั้นตอน ตั้งแต่การเตรียมตัวสอบ การสมัครเรียน การปรับตัวในสภาพแวดล้อมใหม่ และการพัฒนาทักษะที่จำเป็นสำหรับการศึกษาในต่างประเทศ เรามุ่งมั่นที่จะช่วยให้นักเรียนของเราสามารถก้าวสู่ความสำเร็จในสาขาวิชาที่พวกเขาเลือก และเป็นผู้นำในอนาคต
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Study Abroad Section -->
+    <section id="study-abroad" class="study-abroad section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>เรียนต่อมหาวิทยาลัย Top ประเทศจีน</h2>
+        <p>เตรียมความพร้อมให้นักเรียนไทยไปศึกษาต่อในมหาวิทยาลัยชั้นนำของประเทศจีน โดยเฉพาะในสาขาแพทยศาสตร์ วิศวกรรมศาสตร์ และบริหารธุรกิจ</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
-              <img src="assets/img/value-1-up-removebg.png" class="img-fluid" alt="">
-              <h3>คณะแพทยศาสตร์</h3>
-              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+              <img src="assets/img/fac-medicine.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <h3><a href="faculty.html" class="stretched-link">คณะแพทยศาสตอร์</a></h3>
+                <div class="card-content">
+                  <p>สำหรับน้องๆ GED ที่สนใจเรียนแพทย์ที่ประเทศจีน English Program หลายมหาวิทยาลัยรับ GED แพทยสภารับรอง</p>
+                </div>
+              </div>
             </div>
           </div><!-- End Card Item -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <img src="assets/img/value-2-up-removebg.png" class="img-fluid" alt="">
-              <h3>คณะวิศวกรรมศาสตร์</h3>
-              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+              <img src="assets/img/fac-engineering.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <h3><a href="faculty.html" class="stretched-link">คณะวิศวกรรมศาสตร์</a></h3>
+                <div class="card-content">
+                  <p>เรียนวิศวกรรมศาสตร์ที่ประเทศจีน​ กลับมาสอบใบกว.ได้</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img src="assets/img/fac-business.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <h3><a href="faculty.html" class="stretched-link">คณะบริหารธุรกิจ</a></h3>
+                <div class="card-content">
+                  <p>เรียนที่จีน​ จะได้ทั้ง​ 2 ภาษา​ อังกฤษและจีน&nbsp; ทำงานได้ทั่วโลก​ อนาคตไกลนะคะ</p>
+                </div>
+              </div>
             </div>
           </div><!-- End Card Item -->
 
@@ -169,348 +183,420 @@
 
       </div>
 
-    </section><!-- /Values Section -->
+    </section><!-- /Study Abroad Section -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features section-bg">
+    <!-- About 3 Section -->
+    <section id="about-3" class="about-3 section">
+
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>ทุนการศึกษา</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+        <div class="row position-relative">
+
+          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/document-up.jpg"></div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="inner-title">เอกสารการรับสมัคร</h2>
+            <div class="our-story">
+              <h4>ฉบับภาษาอังกฤษ</h4>
+              <h3>เอกสารสมัคร</h3>
+              <!-- <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p> -->
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>ใบสมัครของมหาวิทยาลัย</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>ใบรับรองการเป็นนักเรียน</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>ใบผลการเรียนรวม 5 เทอม (จบ ม.6 แล้วใช้ 6 เทอม)</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>รูปถ่าย 2 นิ้ว พื้นหลังขาว</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>ใบแนะนำตัวจากคุณครู 2 ท่าน</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Passport</span></li>
+              </ul>
+              <p>
+                <span>----------------------------------------------</span>
+                <br><span>บางมหาวิทยาลัยใช้ Portfolio</span>
+                <br><span>บางมหาวิทยาลัยใช้ IELTS</span>
+                <br><span>บางมหาวิทยาลัยใช้ Personal Test</span>
+              </p>
+              <p>
+                หมายเหตุ 🏥🩺</p>
+              <div>** เอกสารใช้ภาษาอังกฤษทั้งหมด&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>** หลายมหาลัยไม่ใช้ IELTS บางมหาลัยใช้นะคะ
+                <br>** บางมหาลัยสัมภาษณ์ บางมหาลัยไม่สัมภาษณ์
+                <br>** สัมภาษณ์ใช้ภาษาอังกฤษเท่านั้นนะคะ
+                <br>** มีติวสัมภาษณ์ฟรีก่อนเข้าสัมภาษณ์จริง📍
+                <br>** ทุกมหาลัยมีส่งเอกสารการสมัครนะคะ
+                <p></p>
+
+                <!-- <div class="watch-video d-flex align-items-center position-relative">
+            <i class="bi bi-play-circle"></i>
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox stretched-link">Watch Video</a>
+          </div> -->
+              </div>
+            </div>
+
+          </div>
+
         </div>
 
-        <div class="row">
-          <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item" data-aos="fade-up">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-                  <h4>ทุนรัฐบาลจีน</h4>
-                  <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="100">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-                  <h4>ทุนรัฐบาลท้องถิ่น</h4>
-                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="200">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-                  <h4>ทุนรัฐบาลจีน โครงการเส้นทางสายไหม</h4>
-                  <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="300">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-                  <h4>ทุนนักเรียนเรียนดี</h4>
-                  <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-                </a>
-              </li>
+      </div>
+    </section><!-- /About 3 Section -->
+
+    <!-- Scholarship Section -->
+    <section id="scholarship" class="scholarship section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 content" data-aos="fade-up" data-aos-delay="100">
+            <p class="who-we-are">เรียนดี มีทุนให้</p>
+            <h3>ทุนการศึกษา</h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>ทุนรัฐบาลจีน</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>ทุนมหาวิทยาลัย</span></li>
             </ul>
+            <p class="fst-italic">
+              ปี 2567 เป็นปีที่นักเรียนของ UP Education 🏢
+              <br>#ได้รับทุนการศึกษามากที่สุดในประวัติศาสตร์นะคะ
+              <br>เป็นหลักสูตร English Program ทุกมหาวิทยาลัย
+              <br>ณ วันนี้น้องๆ Dek67 ได้รับทุนท้ังหมด 31 คนนะคะ❗️
+              <br>1. #คณะแพทยศาสตร์ Xi’an Jiaotong University🇨🇳
+              <br>นักเรียนได้รับทุนการศึกษาทั้งหมด 10 คน🎉
+              <br>2. #คณะแพทยศาสตร์ Hebei Medical University🇨🇳
+              <br>นักเรียนได้รับทุนการศึกษา ทั้งหมด 17 คน🎉
+              <br>3. #คณะบริหารธุรกิจระหว่างประเทศ NUAA🇨🇳
+              <br>นักเรียนได้รับทุนการศึกษา 1 คน 100% ปี1🎉
+              <br>4. #คณะวิศวกรรมอิเล็กทรอนิกส์และคอมพิวเตอร์🇨🇳
+              <br>Zhejiang University นักเรียนได้รับทุน 3 คน🎉
+              <br>ขอแสดงความยินดีกับน้องๆทุกคนมากๆค่ะ🌷
+            </p>
+            <!-- <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
           </div>
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <figure>
-                  <img src="assets/img/features-1.png" alt="" class="img-fluid">
-                </figure>
+
+          <div class="col-lg-8 about-images" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <img src="assets/img/scholar-up-1.jpg" class="img-fluid" alt="">
               </div>
-              <div class="tab-pane" id="tab-2">
-                <figure>
-                  <img src="assets/img/features-2.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <figure>
-                  <img src="assets/img/features-3.png" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <figure>
-                  <img src="assets/img/features-4.png" alt="" class="img-fluid">
-                </figure>
+              <div class="col-lg-6">
+                <div class="row gy-4">
+                  <div class="col-lg-12">
+                    <img src="assets/img/scholar-up-2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <!-- <div class="col-lg-12">
+                    <img src="assets/img/about-company-3.jpg" class="img-fluid" alt="">
+                  </div> -->
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-      </div>
-    </section><!-- End Features Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>เอกสารการับสมัคร</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
-            <div class="icon-box icon-box-pink">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">บัตรประชาชน</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box icon-box-cyan">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">ใบ ปพ.6</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box icon-box-green">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Portfolio</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box icon-box-blue">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">เอกสารอื่นๆ</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- /Scholarship Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <!-- Student Life Section -->
+    <section id="student-life" class="student-life section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>ชีวิตนักเรียนไทยในจีน</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>ชีวิตนักเรียนไทยในจีน</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          <!-- <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-app">App</li>
+        <li data-filter=".filter-product">Product</li>
+        <li data-filter=".filter-branding">Branding</li>
+        <li data-filter=".filter-books">Books</li>
+      </ul> -->
+          <!-- End Portfolio Filters -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-1-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-1-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-2-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-2-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-3-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-3-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-4-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-4-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-5-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-5-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-6-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-6-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-7-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-7-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-8-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-8-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9-up.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9-up.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/portfolio-9-up.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/portfolio-9-up.jpg" title="ชีวิตนักเรียนไทยในจีน" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-            </div>
-          </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    </section><!-- /Student Life Section -->
+
+    <!-- Partner Section -->
+    <section id="partner" class="partner section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>มหาวิทยาลัย Partner</h2>
+        <p>เรียนต่อคณะแพทยศาสตร์ มหาวิทยาลัยชั้นนำของประเทศจีน แพทยสภารับรอง คณะวิศวกรรมภาคอินเตอร์ระดับ TOP ที่ประเทศจีน</p>
+      </div><!-- End Section Title -->
+
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>มหาวิทยาลัย Partner</h2>
-          <p>เรียนต่อคณะแพทยศาสตร์ มหาวิทยาลัยชั้นนำของประเทศจีน แพทยสภารับรอง คณะวิศวกรรมภาคอินเตอร์ระดับ TOP ที่ประเทศจีน</p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-2 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in">
-              <a href="portfolio-details.html" title="More Details">
-                <img src="assets/img/clients/client-1-up.png" class="img-fluid" alt="">
-              </a>
-            </div>
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-4.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-5.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-6.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-7.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-8.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-9.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="#"><img src="assets/img/clients/uni-10.png" class="img-fluid" alt=""></a></div>
           </div>
-
-          <div class="col-lg-2 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-              <a href="portfolio-details.html" title="More Details">
-                <img src="assets/img/clients/client-2-up.png" class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-              <a href="portfolio-details.html" title="More Details">
-                <img src="assets/img/clients/client-3-up.svg" class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-              <a href="portfolio-details.html" title="More Details">
-                <img src="assets/img/clients/client-4-up.png" class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-              <a href="portfolio-details.html" title="More Details">
-                <img src="assets/img/clients/client-5-up.png" class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
+    </section><!-- /Partner Section -->
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>รีวิวน้องๆ up</h2>
-        </div>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>รีวิวน้องๆ UP</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              <div class="testimonial-item" "="">
+            <p>
+              <i class=" bi bi-quote quote-icon-left"></i>
+                <span>แคมปัสที่เรียนก็น่าเรียนมากค่ะบรรยากาศดีมาก ช่วงหน้าหนาวมีหิมะตกด้วยแล้ววก็มีใบไม้ผลิที่สวยแบบในรูป มีสถานที่ท่องเที่ยวที่เก่าแก่อยู่รอบๆมหาลัย ความสะดวกสบายมีรถไฟฟ้าไปถึงนอกเมืองและในเมืองส่วนเรื่องของกินก็แล้วแต่คนชอบ มีอาหารนานาชนิดให้ได้ทาน ไม่ว่า อาหารฝรั่งหรืออาหารเอเชีย ส่วนเรื่องความปลอดภัยก็ถือว่าดีเลยค่ะ</span>
+                <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-1-up.png" class="testimonial-img" alt="">
-                <h3>Mr.Meathawee Eakshamutchai</h3>
-                <h4>Dalian Medical University</h4>
+                <img src="assets/img/testimonials/review-up-1.png" class="testimonial-img" alt="">
+                <h3>พี่มินนี่ นักศึกษาแพทย์</h3>
+                <h4>Xi’an Jiaotong University</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>อยากเป็นหมอ เพราะเป็นความฝันตั้งแต่เด็กค่ะ สิ่งที่ทำให้ตัดสินใจเลือกสมัครกับ UP Education เพราะมั่นใจในโครงการนี้บวกกับการดูแลของพี่มินในระหว่างรอสัมภาษณ์ การแนะแนวทาง ตอนสัมภาษณ์รู้สึกตื่นเต้นมากๆ อยากขอบคุณคุณพ่อคุณแม่ทุกคนที่คอยซัพพอร์ต และรวมถึงพี่มินและพี่ๆในโครงการที่แนะนำมาตลอดนะคะ</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-2-up.png" class="testimonial-img" alt="">
-                <h3>Mr.Thanawat Thanitnan</h3>
-                <h4>China Medical University</h4>
+                <img src="assets/img/testimonials/review-up-2.png" class="testimonial-img" alt="">
+                <h3>น้องเบอร์รี่ นักศึกษาแพทย์</h3>
+                <h4>Xi’an Jiaotong University</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>จีเซ่นเลือกหมอฟันเพราะเป็นอาชีพที่ฝันตั้งแต่อนุบาลเลยค่ะ พี่มินตอบคำถามหนูตลอด หนูถามซ้ำที่รอบพี่มินตอบหนูทุกรอบเลย มีตอนนึงหนูโทรหาพี่มิน พี่มินก็โทรมาให้ทั้งๆที่ไม่สบาย พี่มินใส่ใจเด็กมากๆเลยค่ะ ตอนสัมภาษณ์ตื่นเต้นมากค่ะ ไม่คิดว่าหนูจะติด ดีใจจนพูดไม่ออกเลยค่ะ อยากขอบคุณนักๆคุณพี่มินและสถาบันที่แนะนำการเรียนต่อที่จีนมาให้นะคะ</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-3-up.png" class="testimonial-img" alt="">
-                <h3>Ms.Kanyada Iamtheeraphaiboon</h3>
-                <h4>Huazhong University of Science and Technology</h4>
+                <img src="assets/img/testimonials/review-up-3.png" class="testimonial-img" alt="">
+                <h3>น้องจีเซ่น นักศึกษาทันตแพทย์</h3>
+                <h4>Xi’an Jiaotong University</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>เบลชอบช่วยเหลือคนอื่นมาจากได้ดูซีรีส์เรื่องหนึ่งแล้วชอบมากๆ เลยเป็นแรงบันดาลใจอยากทำอาชีพนี้ค่ะ ตอนสัมภาษณ์ตื่นเต้นค่ะ เราคิดว่าเราเตรียมตัวมาดีแล้ว พอสัมภาษณ์จริงๆ คิดอะไรไม่ออก แต่พี่มินก็อธิบายให้กำลังใจด้วยเลยมีกำลังใจขึ้นมาเลยค่ะ อยากขอบคุณครอบครัวที่คอย support ขอบคุณพี่มินที่ช่วยดูแลให้คำแนะนำ</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-4-up.png" class="testimonial-img" alt="">
-                <h3>Ms.Luckkana Rakhana</h3>
-                <h4>Huazhong University of Science and Technology</h4>
+                <img src="assets/img/testimonials/review-up-4.png" class="testimonial-img" alt="">
+                <h3>น้องเบล นักศึกษาแพทย์</h3>
+                <h4>Fujian Medical University</h4>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>เหตุผลหลักที่มูนอยากเป็นหมอคือ อยากเป็นคนที่มีความรู้ความสามารถในการช่วยเหลือดูแลครอบครัวให้ดีที่สุดค่ะ ตอนแรกไม่เคยมั่นใจถึงการเรียนต่างประเทศเลย แต่พี่มินใจดีมากๆ พี่มินที่ทำให้สามารถบรรลุหนึ่งในความฝันได้ ตัดสินใจถูกที่ไปเรียนโดยให้พี่มินดูแล แทบไม่กังวลอะไรเลยค่ะทั้งเรื่องการเรียนการใช้ชีวิตและศาสนาค่ะ</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
-                <img src="assets/img/testimonials/testimonials-5-up.png" class="testimonial-img" alt="">
-                <h3>Ma.Sirikarn Ngernudompaisan</h3>
-                <h4>Huazhong University of Science and Technology</h4>
+                <img src="assets/img/testimonials/review-up-5.png" class="testimonial-img" alt="">
+                <h3>น้องมูนา นักศึกษาแพทย์</h3>
+                <h4>Zhejiang University</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -519,164 +605,172 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
+    </section><!-- /Testimonials Section -->
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Contact Us</h2>
-        </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-        <div class="row">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>ติดต่อเรา</h2>
+        <!-- <p>1897 หมู่ 6 ถนนสนามบิน-ลพบุรีราเมศวร์ ต.ควนลัง อ.หาดใหญ่ จ.สงขลา 90110</p> -->
+      </div><!-- End Section Title -->
 
-          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
+        <div class="row gy-4">
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
+          <div class="col-lg-5">
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>ที่อยู่</h3>
+                  <p>1897 หมู่ 6 ถนนสนามบิน-ลพบุรีราเมศวร์ ต.ควนลัง อ.หาดใหญ่ จ.สงขลา 90110 (สำนักงานใหญ่)</p>
                 </div>
-                <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>โทร</h3>
+                  <p>089 832 6220</p>
                 </div>
-              </div>
-              <div class="form-group mt-3">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
+              </div><!-- End Info Item -->
 
-        </div>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>upeducation.grp@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
 
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>UP Education</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d473.8648131065673!2d100.41844865942913!3d6.951985759590589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304cd99bdf763447%3A0x313ecbe32af4c96b!2sT%20Space%20Lifestyle%20%26%20Community%20Mall!5e0!3m2!1sen!2sth!4v1723454214870!5m2!1sen!2sth" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">ชื่อ - สกุล</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">อีเมล</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">หัวข้อ</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">อธิบาย</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">กำลังดำเนินการ. ขอบคุณค่ะ!</div>
+
+                  <button type="submit">ส่งข้อความ</button>
+                </div>
+
+              </div>
             </form>
-
-          </div>
+          </div><!-- End Contact Form -->
 
         </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">UP Education</span>
+          </a>
+          <p>สถาบันติวและศึกษาต่อต่างประเทศ UP Education&nbsp;เรียนต่อคณะแพทยศาสตร์ วิศวกรรมศาสตร์ บริหารธุรกิจมหาวิทยาลัย TOP ประเทศจีน</p>
+          <div class="social-links d-flex mt-4">
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+            <a href="https://www.facebook.com/YASMIN.UPEducation"><i class="bi bi-facebook"></i></a>
+            <!-- <a href=""><i class="bi bi-instagram"></i></a> -->
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+            <a href=""><i class="bi bi-line"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <!-- <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+        </ul> -->
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <!-- <h4>บริการของเรา</h4>
+        <ul>
+          <li><a href="#">ศึกษาต่อประเทศจีน</a></li>
+          <li><a href="#">ทุนการศึกษา</a></li>
+          <li><a href="#">ติวเตอร์</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Graphic Design</a></li>
+        </ul> -->
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>ติดต่อเรา</h4>
+          <p>1897 หมู่ 6 ถนนสนามบิน-ลพบุรีราเมศวร์</p>
+          <p>ต.ควนลัง อ.หาดใหญ่</p>
+          <p>จ.สงขลา 90110 (สำนักงานใหญ่)</p>
+          <p class="mt-4"><strong>โทร:</strong> <span>089 832 6220</span></p>
+          <p><strong>Email:</strong> <span>upeducation.grp@gmail.com</span></p>
+        </div>
+
       </div>
     </div>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Scaffold</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">UP Education</strong> <span>All Rights Reserved</span></p>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
